@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+    
+    
+}
+
+header {
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+
+}
+
+.rmaior {
+    width: 100%;
+    max-width: 1000px;
+    height: 75vh;
+    
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkblue;
+    justify-content: center;
+
+    gap: 8px;
+    padding: 16px;
+}
+
+.itens {
+    
+    width: 300px;
+    
+}
+
+.itens img {
+    width:300px ;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+
+.botao {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    
+   
+    width: 150px;   
+    height: 50px;   
+    
+    
+    width: 100%;
+    max-width: 200px; 
+    
+    cursor: pointer;
+}
